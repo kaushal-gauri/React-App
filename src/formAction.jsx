@@ -40,16 +40,17 @@ export default function FormAction() {
 
   return (
     <div>
-      <div className='form-main'>
+      <div className='form-main1'>
         <header className='form-header'>
           <h1>React Js Winter PEP Project</h1>
+          <div className='form-clr'><h2>FormAction Component</h2></div>
           <nav className='nav-bar'>
-            <Link to='/'>Home</Link>
-            <Link to='/formAction'>FormAction</Link>
+            <Link className='home-section' to='/'>Home</Link>
+            <Link className='form-section' to='/formAction'>FormAction</Link>
           </nav>
         </header>
-        <h2 className='page-heading'>User Input Fields</h2>
-        <p>FormAction Component</p>
+        <h3 className='page-heading'>User Input Fields</h3>
+      
         <div className='form-container'>
           <form onSubmit={handleFormAction}>
             <div className='form-inner'>
@@ -82,7 +83,7 @@ export default function FormAction() {
                 placeholder='Enter your email'
               />
 
-              <button type='submit'>Submit</button>
+              <button className="subform" type='submit'>Submit</button>
             </div>
           </form>
         </div>

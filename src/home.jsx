@@ -26,12 +26,18 @@ export default function Home() {
 
   return (
     <div>
+    <div className='form-main2'>
       <div className='home-main'>
         <header>
           <h1>React Js Winter PEP Project</h1>
-          <nav>
-            <Link to='/'>Home</Link>
-            <Link to='/formAction'>FormAction</Link>
+          <div className='home-clr'>
+          <h2 >Home Component</h2>
+          </div>
+          
+          <nav  className='nav-bar'>
+          
+            <Link className='home-section' to='/'>Home</Link>
+            <Link className='form-section' to='/formAction'>FormAction</Link>
           </nav>
 
           <div className='home-content'>
@@ -59,13 +65,18 @@ export default function Home() {
               </table>
             ) : (
               <>
-                <h3> NO DATA TO VIEW</h3>
+              <div>
+              <h3> NO DATA TO VIEW</h3>
+              <h4>Go to the form component, fill the details then the user details table  will be displayed</h4>
+              </div>
+                
 
-                <Link to='/formAction'><button>Open FormAction</button></Link>
+                <Link to='/formAction'><button className="subform">Open FormAction</button></Link>
               </>
             )}
           </div>
         </header>
+      </div>
       </div>
     </div>
   );
