@@ -34,7 +34,7 @@ export default function Home() {
           <h2 >Home Component</h2>
           </div>
           
-          <nav  className='nav-bar'>
+          <nav  className='nav-bar1'>
           
             <Link className='home-section' to='/'>Home</Link>
             <Link className='form-section' to='/formAction'>FormAction</Link>
@@ -61,17 +61,22 @@ export default function Home() {
                       <td>{data.email}</td>
                     </tr>
                   ))}
+                   
+                   <Link to='/formAction'><button className="subform">Open FormAction</button></Link>
+                  
+                 
                 </tbody>
               </table>
+
+              
             ) : (
               <>
               <div>
               <h3> NO DATA TO VIEW</h3>
               <h4>Go to the form component, fill the details then the user details table  will be displayed</h4>
               </div>
-                
-
-                <Link to='/formAction'><button className="subform">Open FormAction</button></Link>
+  
+              <Link to='/formAction'><button className="subform">Open FormAction</button></Link>
               </>
             )}
           </div>

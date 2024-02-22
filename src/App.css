@@ -118,7 +118,7 @@ body {
   max-width: 900px;
   margin: 5px 5px;
   background-color: #fbe7d6;
-  padding: 80px 120px;
+  padding: 100px 120px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -127,7 +127,7 @@ body {
   max-width: 900px;
   margin: 5px 5px;
   background-color: #fbe7d6;
-  padding: 80px 120px;
+  padding: 75px 175px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -191,10 +191,35 @@ home page css */
   box-shadow: 0 0 0px rgba(0, 0, 0, 0);
 }
 
+
+
 header {
   text-align: center;
   margin-bottom: 20px;
   
+}
+
+.nav-bar1 {
+  background-color: #4919e8; /* Blue */
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end; /* Align the navigation items to the right */
+
+  
+}
+
+.nav-bar1 a {
+  margin-right: 140px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #1b0202bc; /*brown*/
+  font-weight: bold;
+  transition: color 0.3s; /* Add transition for color change */
+}
+
+.nav-bar1 a:hover {
+  color: #0836eff1; /* Light Green */
 }
 
 
@@ -221,6 +246,5 @@ tbody tr:hover {
 
 .form-clr, 
 .home-clr{
-  background-color: #93fbf9;
-  
+  background-color: #93fbf9; 
 }
