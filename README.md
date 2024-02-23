@@ -31,7 +31,7 @@ npm i
 npm run dev
 ```
 
-4. After running the above command, if node doesn't throw any error, then: 'Ctrl + Left Click' on the 'http://localhost:<port no.>/' 
+4. After running the above command, if node doesn't throw any error, then: 'Ctrl + Left Click' on the 'http://localhost:<port_no>/' 
 
 else if, the node throws any error ,delete the 'node_module' directory, follow  from step no. 2.
 
