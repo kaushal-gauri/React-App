@@ -1,4 +1,4 @@
-#Coding Spoon _React winter Pep project
+# Coding Spoon _React winter Pep project
 
 This React application has two components (Home and Navbar) and it implements routing to navigate between these components. Additionally,it also has a FormAction component to gather user input.
 
