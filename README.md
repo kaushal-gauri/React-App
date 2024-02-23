@@ -1,8 +1,55 @@
-# React + Vite
+#Coding Spoon _React winter Pep project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React application has two components (Home and Navbar) and it implements routing to navigate between these components. Additionally,it also has a FormAction component to gather user input.
 
-Currently, two official plugins are available:
+## Getting Started
+Follow these simple steps to explore the React App :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone the Repository:**
+
+```bash
+git clone <repository-url>
+```
+
+
+2.**Install Dependencies:** Navigate to the React App and run the following command to install the required dependencies:
+
+```bash
+npm install
+```
+
+or
+
+```bash
+npm i
+```
+
+
+3. ""This project has been developed using Vite + React frontend framework** , so do run the following command next:
+
+```bash
+npm run dev
+```
+
+4. After running the above command, if node doesn't throw any error, then: 'Ctrl + Left Click' on the 'http://localhost:<port no.>/' 
+
+else if, the node throws any error ,delete the 'node_module' directory, follow  from step no. 2.
+
+
+```bash
+project-root/
+│   .git/
+│   src/
+│   public/
+│   node_modules/
+│   README.md
+│   package.json
+│   .gitignore
+```
+
+##License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Feel free to explore and contribute!
+
+Happy Coding! 🚀
