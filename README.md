@@ -25,7 +25,7 @@ npm i
 ```
 
 
-3. ""This project has been developed using Vite + React frontend framework** , so do run the following command next:
+3. **This project has been developed using Vite + React frontend framework** , so do run the following command next:
 
 ```bash
 npm run dev
@@ -47,9 +47,12 @@ project-root/
 │   .gitignore
 ```
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Feel free to explore and contribute!
 
 Happy Coding! 🚀
+
+
+
